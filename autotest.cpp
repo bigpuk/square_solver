@@ -10,15 +10,15 @@ void autotest()
 
     TestData tests[] =
     {
-        {.n = 1, .a = 1,   .b = 2,   .c = 1,     .x1_expected = -1,       .x2_expected = NAN,         .nRoots_expected =  1},
-        {.n = 2, .a = 0,   .b = 0,   .c = 0,     .x1_expected = INFINITY, .x2_expected = INFINITY,    .nRoots_expected = -1},
-        {.n = 3, .a = 1,   .b = 0,   .c = 0,     .x1_expected = 0,        .x2_expected = NAN,         .nRoots_expected =  1},
-        {.n = 4, .a = 0,   .b = 1,   .c = 0,     .x1_expected = 0,        .x2_expected = NAN,         .nRoots_expected =  1},
-        {.n = 5, .a = 1,   .b = 1,   .c = 100,   .x1_expected = NAN,      .x2_expected = NAN,         .nRoots_expected =  0},
-        {.n = 6, .a = 1,   .b = 0,   .c = -1,    .x1_expected = -1,       .x2_expected = 1,           .nRoots_expected =  2},
-        {.n = 7, .a = 1,   .b = 2,   .c = 3,     .x1_expected = NAN,      .x2_expected = NAN,         .nRoots_expected =  0},
-        {.n = 8, .a = 1,   .b = 4,   .c = 3,     .x1_expected = -3,       .x2_expected = -1,          .nRoots_expected =  2},
-        {.n = 9, .a = 1.5, .b = 2.5, .c = 1,     .x1_expected = -1,       .x2_expected = -two_thirds, .nRoots_expected =  2}
+        {.n = 1, .a = 1,   .b = 2,   .c = 1,   .x1_expected = -1,       .x2_expected = NAN,         .nRoots_expected =  1},
+        {.n = 2, .a = 0,   .b = 0,   .c = 0,   .x1_expected = INFINITY, .x2_expected = INFINITY,    .nRoots_expected = -1},
+        {.n = 3, .a = 1,   .b = 0,   .c = 0,   .x1_expected = 0,        .x2_expected = NAN,         .nRoots_expected =  1},
+        {.n = 4, .a = 0,   .b = 1,   .c = 0,   .x1_expected = 0,        .x2_expected = NAN,         .nRoots_expected =  1},
+        {.n = 5, .a = 1,   .b = 1,   .c = 100, .x1_expected = NAN,      .x2_expected = NAN,         .nRoots_expected =  0},
+        {.n = 6, .a = 1,   .b = 0,   .c = -1,  .x1_expected = -1,       .x2_expected = 1,           .nRoots_expected =  2},
+        {.n = 7, .a = 1,   .b = 2,   .c = 3,   .x1_expected = NAN,      .x2_expected = NAN,         .nRoots_expected =  0},
+        {.n = 8, .a = 1,   .b = 4,   .c = 3,   .x1_expected = -3,       .x2_expected = -1,          .nRoots_expected =  2},
+        {.n = 9, .a = 1.5, .b = 2.5, .c = 1,   .x1_expected = -1,       .x2_expected = -two_thirds, .nRoots_expected =  2}
     };
 
     int correct = 0;
