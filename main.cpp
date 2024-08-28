@@ -12,9 +12,6 @@ const int INPUT_FAIL = 1;
 
 int main()
 {
-    printf("\u001b[32;1m");
-    printf("8====D\n");
-    printf("\u001b[0m");
     double a = NAN, b = NAN, c = NAN, x1 = NAN, x2 = NAN;
     int nRoots = -8;
 

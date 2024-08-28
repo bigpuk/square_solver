@@ -10,3 +10,8 @@ git commit -m "ОПИСАНИЕ КОММИТА"          (после git add .)
 git remote -v                                         список удалённых хостов
 git push origin master                              (master - название ветки)
 git pull origin master                             (master - название ветки)
+echo            
+bash quad.sh
+bash                    новая консоль
+exit
+
